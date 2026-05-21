@@ -1,0 +1,27 @@
+/* Fallback plain CSS for anything SCSS doesn't catch */
+
+/* Content width constraint — keeps lines readable */
+.content {
+  max-width: 760px;
+}
+
+/* Tighten Quarto's default list spacing */
+ul, ol {
+  padding-left: 1.4rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+/* Prevent code blocks from becoming enormous */
+pre {
+  font-size: 0.85rem;
+}
+
+/* Subtle horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2rem 0;
+}

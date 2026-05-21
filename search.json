@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research sits at the intersection of plant ecology, biogeography, and climate change biology. I work mostly at large spatial scales — across mountain ranges, elevation gradients, and continents — but I keep one foot in the field to ground that work empirically."
+  },
+  {
+    "objectID": "research.html#phd-project",
+    "href": "research.html#phd-project",
+    "title": "Research",
+    "section": "PhD project",
+    "text": "PhD project\nEurope-wide redistributions of mountain plants during the Anthropocene\nUniversity of Basel · 2022 – present\nSupervised by Prof. Sabine Rumpf (Basel) and Prof. John-Arvid Grytnes (Bergen)\nZurich–Basel Plant Science Center\nMountain ecosystems are among the most rapidly changing on Earth. As temperatures rise, alpine plants are expected to shift upslope — but the reality is more complicated. Species differ in their responses, communities restructure in non-obvious ways, and the factors that determine where species can live are not yet fully understood.\nMy thesis addresses this complexity from several angles:\nWhat limits alpine species at their upper and lower range boundaries?\nIn a systematic review published in Ecology and Evolution (2026), my co-authors and I synthesised evidence for the biotic and abiotic factors constraining elevational range limits across alpine floras. The results challenge the widespread assumption that upper limits are primarily set by temperature.\nAre alpine plant communities homogenising?\nA second chapter, in preparation for Journal of Vegetation Science, examines whether vegetation surveys along an elevational gradient show signatures of biotic homogenisation — and whether the timing of dominance changes tracks, or is decoupled from, the timing of compositional change.\nSvalbard resurveys\nAs a guest PhD student at the University Centre in Svalbard (UNIS) with Prof. Philipp Semenschuk, I resurveyed historical vegetation plots in the Isfjorden area (Svalbard, High Arctic), tracking community changes across decades in one of the fastest-warming regions on Earth. This work was supported by an Arctic Field Grant (100,000 NOK) from the Research Council of Norway."
+  },
+  {
+    "objectID": "research.html#earlier-research",
+    "href": "research.html#earlier-research",
+    "title": "Research",
+    "section": "Earlier research",
+    "text": "Earlier research\nBelowground water use in drought-stressed grasslands\nUniversity of Tübingen · MSc work, 2019–2021\nFor my MSc thesis I used stable water isotope mixing models to quantify the depth from which grassland plants extract water, and asked how this shifts as communities are subjected to experimental drought. The work showed that belowground niche partitioning — plants using water from different depths — is remarkably robust to extreme drought stress. This became a first-author paper in Ecology (2024).\nA complementary paper (Kramp et al., Ecology, 2022), to which I contributed, showed that while belowground partitioning is maintained, the functional traits of individual plants do shift: from strategies that tolerate drought to strategies that avoid it.\nVegetation responses to grazing in drylands\nMy BSc thesis examined how plant functional composition changes along grazing intensity gradients in dryland grasslands, linking functional trait variation to environmental filters imposed by livestock pressure."
+  },
+  {
+    "objectID": "research.html#methods-and-tools",
+    "href": "research.html#methods-and-tools",
+    "title": "Research",
+    "section": "Methods and tools",
+    "text": "Methods and tools\n\nFieldwork: permanent plot monitoring, vegetation relevées, functional trait measurement (above- and belowground), biomass harvesting, phenological observations, soil surveys\nSites: Southern Norway (Jotunheimen NP), Svalbard (Isfjorden), Swabian Alb (Germany), Mediterranean (Greece), Israel, Brazil\nStatistics: mixed models, GLMMs, generalised additive models, quantile regression, multivariate analysis, bootstrapping\nR: tidyverse, ggplot2, lme4, nlme, MixSIAR, sf, terra, rgbif, GIFT, vegan\nWorkflows: R Markdown, Quarto, GitHub"
+  },
+  {
+    "objectID": "research.html#collaborators",
+    "href": "research.html#collaborators",
+    "title": "Research",
+    "section": "Collaborators",
+    "text": "Collaborators\nI am grateful to work with a broad network of collaborators across European ecology and biogeography, including researchers at the University of Bergen, WSL Davos, the University of Vienna, the University of Picardie Jules Verne, Uppsala University, and UNIS Svalbard."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sophie E. Weides",
+    "section": "",
+    "text": "PhD Researcher in Botany\n    University of Basel & Zurich–Basel Plant Science Center\n    Basel, Switzerland\n    \n      ✉ Email\n      GitHub\n      Publications\n      CV"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Sophie E. Weides",
+    "section": "Research",
+    "text": "Research\nI am a plant ecologist interested in how mountain plants respond to climate change at the European scale. My PhD at the University of Basel investigates large-scale redistributions of alpine vegetation during the Anthropocene — which species are moving, how fast, and what community-level consequences follow.\nMy work combines resurveys of historical vegetation plots across elevational gradients with continental-scale datasets, statistical modelling, and fieldwork in Norway and Svalbard. I am co-supervised by Prof. Sabine Rumpf (University of Basel) and Prof. John-Arvid Grytnes (University of Bergen) within the Zurich–Basel Plant Science Center.\nBefore Basel, I completed my MSc in Evolution and Ecology at the University of Tübingen, where I studied belowground water uptake strategies of grassland plants using stable isotopes, and later contributed to research on how plant functional traits shift under extreme drought.\n\n  Alpine ecology\n  Climate change biology\n  Vegetation dynamics\n  Elevational range shifts\n  Plant community ecology\n  Biogeography\n  Plant functional traits\n  Belowground ecology"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Sophie E. Weides",
+    "section": "Selected publications",
+    "text": "Selected publications\nWeides, S.E., Grytnes, J.-A., Dullinger, S., Lenoir, J., Pacheco-Riaño, L.C., Pannell, J.R., Wipf, S. & Rumpf, S.B. (2026). On the limits of alpine plants: a systematic review of the factors behind species’ elevational range limits. Ecology and Evolution. doi.org/10.1002/ece3.73183\nWeides, S.E., Hájek, T., Liancourt, P., Herberich, M.M., Kramp, R.E., Tomiolo, S., Pacheco-Riaño, L.C., Tielbörger, K. & Májeková, M. (2024). Belowground niche partitioning is maintained under extreme drought. Ecology. doi.org/10.1002/ecy.4198\n→ All publications"
+  },
+  {
+    "objectID": "index.html#recent-activities",
+    "href": "index.html#recent-activities",
+    "title": "Sophie E. Weides",
+    "section": "Recent activities",
+    "text": "Recent activities\n\n2026 — Speaking at the 68th Annual Symposium of the IAVS, Gijón, Spain\n2026 — Awarded funding from the Voluntary Academic Society of Basel for PhD completion\n2024 — Invited seminars at EDGE Lab (Gothenburg) and Dept. of Biological Sciences (Bergen)\n2024 — Talks at Biology24 (Zürich) and the International Biogeography Conference (Prague)\n2023 — FameLab Basel: reached the semifinals"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Author names are underlined in the original CV; bold here marks my name. Publications are listed chronologically.\n\n\n2026\n\n  Temporal decoupling of homogenization and dominance restructuring along an elevational gradient\n  Sophie E. Weides, Vivien Astrup Felde, Jutta Kapfer, John-Arvid Grytnes & Sabine Rumpf\n  Journal of Vegetation Science In preparation\n\n\n\n  On the limits of alpine plants: a systematic review of the factors behind species' elevational range limits\n  Sophie E. Weides, John-Arvid Grytnes, Stefan Dullinger, Jonathan Lenoir, L. Camila Pacheco-Riaño, John R. Pannell, Sonja Wipf & Sabine B. Rumpf\n  Ecology and Evolution Published\n  doi.org/10.1002/ece3.73183\n\n\n\n2024\n\n  Belowground niche partitioning is maintained under extreme drought\n  Sophie E. Weides, Tomáš Hájek, Pierre Liancourt, Maximiliane M. Herberich, Rosa E. Kramp, Sara Tomiolo, L. Camila Pacheco-Riaño, Katja Tielbörger & Maria Májeková\n  Ecology Published\n  doi.org/10.1002/ecy.4198\n\n\n\n2022\n\n  Functional traits and their plasticity shift from tolerant to avoidant under extreme drought\n  Rosa E. Kramp, Pierre Liancourt, Maximiliane M. Herberich, Lara Saul, Sophie Weides, Katja Tielbörger & Maria Májeková\n  Ecology (e382) Published\n  doi.org/10.1002/ecy.3826\n\n\n\n\nScience communication\nWeides, S. (2021). Wo Pflanzen das Wasser hernehmen — Ermittlung der Wasseraufnahmetiefe von Wiesenpflanzen mit Hilfe stabiler Isotope. Faktor14 (science magazine of the University of Tübingen, for a general audience).\n\n\n\nPeer review\nI review for Journal of Vegetation Science and New Phytologist, and have served as a reviewer for IASC Fellowship grants (International Arctic Science Committee)."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n  \n    2022 – now\n    \n      PhD in Botany\n      University of Basel, Switzerland\n      Zurich–Basel Plant Science Center\n      Thesis: \"Europe-wide redistributions of mountain plants during the Anthropocene\"\n      Supervisors: Prof. Sabine Rumpf (Basel) · Prof. John-Arvid Grytnes (Bergen)\n      Guest PhD student at UNIS Svalbard with Prof. Philipp Semenschuk\n    \n  \n\n  \n    2019 – 2021\n    \n      MSc in Evolution and Ecology\n      Eberhard Karls University, Tübingen, Germany\n      Minor: Parasitology\n      Thesis: \"Where do plants take their water from? Quantifying water uptake depths of plants in changing grasslands\"\n      Supervisors: Dr. Maria Májeková (Tübingen) · Dr. Tomáš Hájek (University of South Bohemia)\n      ERASMUS+ exchange at Uppsala University, Sweden (2020/21)\n    \n  \n\n  \n    2016 – 2019\n    \n      BSc in Biology\n      Eberhard Karls University, Tübingen, Germany\n      Thesis: \"Functional vegetation responses along grazing gradients in drylands\"\n      Supervisors: Dr. Maria Májeková · Dr. Jan C. Ruppert · Prof. Katja Tielbörger"
+  },
+  {
+    "objectID": "cv.html#research-teaching-experience",
+    "href": "cv.html#research-teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research & teaching experience",
+    "text": "Research & teaching experience\n\n  \n    2022 – now\n    \n      Teaching assistant\n      University of Basel, Switzerland\n      Blockkurs Ecology and Nature Conservation · Invasive Species excursion · Methods in Ecology\n    \n  \n\n  \n    2017 – 2022\n    \n      Research assistant\n      Eberhard Karls University, Tübingen, Germany\n      Vegetation Ecology Group · Plant Evolutionary Ecology Group · Behavioral Ecology\n    \n  \n\n  \n    2017 – 2022\n    \n      Teaching assistant\n      Eberhard Karls University, Tübingen, Germany\n      Advanced Biometry · Fundamentals of Coding · Botany (lab + excursions) · Pharmaceutical Biology · First-year student mentoring"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nWeides, S.E., Felde, V.A., Kapfer, J., Grytnes, J.-A. & Rumpf, S. (2026). Temporal decoupling of homogenization and dominance restructuring along an elevational gradient. Journal of Vegetation Science. In preparation.\nWeides, S.E., Grytnes, J.-A., Dullinger, S., Lenoir, J., Pacheco-Riaño, L.C., Pannell, J.R., Wipf, S. & Rumpf, S.B. (2026). On the limits of alpine plants: a systematic review of the factors behind species’ elevational range limits. Ecology and Evolution. doi.org/10.1002/ece3.73183\nWeides, S.E., Hájek, T., Liancourt, P., Herberich, M.M., Kramp, R.E., Tomiolo, S., Pacheco-Riaño, L.C., Tielbörger, K. & Májeková, M. (2024). Belowground niche partitioning is maintained under extreme drought. Ecology. doi.org/10.1002/ecy.4198\nKramp, R.E., Liancourt, P., Herberich, M.M., Saul, L., Weides, S., Tielbörger, K. & Májeková, M. (2022). Functional traits and their plasticity shift from tolerant to avoidant under extreme drought. Ecology (e382). doi.org/10.1002/ecy.3826"
+  },
+  {
+    "objectID": "cv.html#conference-talks-invited-seminars",
+    "href": "cv.html#conference-talks-invited-seminars",
+    "title": "Curriculum Vitae",
+    "section": "Conference talks & invited seminars",
+    "text": "Conference talks & invited seminars\n\n  202668th Annual Symposium of the IAVS, Gijón, Spain\n  2024Invited seminar, EDGE Lab, University of Gothenburg, Sweden\n  2024Invited seminar, Department of Biological Sciences, University of Bergen, Norway\n  2024Biology24, Zürich, Switzerland\n  2024International Biogeography Conference, Prague, Czech Republic\n  2023Invited seminar, WSL Davos, Switzerland\n  202163rd Annual Symposium of the IAVS (virtual)\n  2021POPBIO 2021 (virtual)"
+  },
+  {
+    "objectID": "cv.html#grants-prizes-funding",
+    "href": "cv.html#grants-prizes-funding",
+    "title": "Curriculum Vitae",
+    "section": "Grants, prizes & funding",
+    "text": "Grants, prizes & funding\n\n  \n    2026\n    \n      Completion grant — Voluntary Academic Society of Basel\n      6,652.20 CHF for PhD completion\n    \n  \n  \n    2021/22\n    \n      Arctic Field Grant — Research Council of Norway\n      100,000 NOK · Project: \"Re-surveying historical vegetation records in Svalbard\" (RiS ID 12081)\n    \n  \n  \n    2021\n    \n      Best Early Career Presentation — POPBIO 2021"
+  },
+  {
+    "objectID": "cv.html#academic-service-outreach",
+    "href": "cv.html#academic-service-outreach",
+    "title": "Curriculum Vitae",
+    "section": "Academic service & outreach",
+    "text": "Academic service & outreach\nOrganiser — DUW Symposium Basel, Switzerland (2023)\nPeer review — Journal of Vegetation Science · New Phytologist\nGrant review — IASC Fellowship (International Arctic Science Committee)\nOutreach — FameLab Basel 2023 (Semifinals) · Science article in Faktor14 (University of Tübingen, 2021)\nProfessional memberships — Gesellschaft für Ökologie (GfÖ) · International Biogeography Society · International Association for Vegetation Science"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nFieldwork — vegetation relevées, quadrat/transect surveys, functional trait collection (above- and belowground), biomass harvesting, phenological monitoring, soil sampling, permanent plot methods\nField sites — Southern Norway (Jotunheimen NP) · Svalbard (Isfjorden) · Swabian Alb, Germany · Greece · Israel · Brazil\nStatistics — mixed models (LMM/GLMM), generalised additive models, quantile regression, multivariate analysis, bootstrapping, model diagnostics\nR — tidyverse · ggplot2 · lme4 · nlme · MixSIAR · vegan · sf · terra · rgbif · GIFT · R Markdown · GitHub\nLanguages — German (native) · English (fluent)"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I have been involved in teaching at both undergraduate and graduate levels since 2017, first at the University of Tübingen and then at the University of Basel. My teaching spans field courses, lab practicals, statistics, and student mentoring."
+  },
+  {
+    "objectID": "teaching.html#university-of-basel",
+    "href": "teaching.html#university-of-basel",
+    "title": "Teaching",
+    "section": "University of Basel",
+    "text": "University of Basel\nTeaching assistant · 2022 – present\n\nBlockkurs Ecology and Nature Conservation — intensive field and lab course for biology students\nInvasive Species excursion — identification and ecology of invasive plants in the field\nMedicinal and Poisonous Plants excursion — applied botanical identification\nMethods in Ecology — introduction to ecological research methods and study design"
+  },
+  {
+    "objectID": "teaching.html#university-of-tübingen",
+    "href": "teaching.html#university-of-tübingen",
+    "title": "Teaching",
+    "section": "University of Tübingen",
+    "text": "University of Tübingen\nTeaching assistant · 2017 – 2022\n\nAdvanced Biometry — statistical methods for biologists; mixed models, experimental design\nFundamentals of Coding — introduction to R and reproducible data analysis for biology students\nBotany — lab course and field excursions; plant identification, morphology, anatomy\nPharmaceutical Biology — herbarium examination, essay evaluation, botanical excursions for pharmacy students\nFirst-Year Student Mentoring — contact person and advisor for incoming biology students\n\nResearch assistant · 2017 – 2022\n\nVegetation Ecology Group — field and lab work across multiple projects\nPlant Evolutionary Ecology Group — research support\nBehavioral Ecology — preparation of experimental materials"
+  },
+  {
+    "objectID": "teaching.html#plant-identification",
+    "href": "teaching.html#plant-identification",
+    "title": "Teaching",
+    "section": "Plant identification",
+    "text": "Plant identification\nIn 2021 I passed the SW400–Berberis examination at the University of Tübingen, which certifies knowledge of 400 plant species and their families, plus the 25 most common plant families in southwest Germany."
+  },
+  {
+    "objectID": "teaching.html#field-schools-and-intensive-courses",
+    "href": "teaching.html#field-schools-and-intensive-courses",
+    "title": "Teaching",
+    "section": "Field schools and intensive courses",
+    "text": "Field schools and intensive courses\n\n\n\n\n\n\n\nDate\nCourse\n\n\n\n\nApr 2023\nEcology of Mediterranean Systems — excursion to Greece with Prof. Christian Körner and Dr. Juriaan de Vos\n\n\nDec 2022\nWinter School on Data Management in Ecology and Environmental Sciences (GfÖ & NFDI4Biodiversity)\n\n\nMar 2020\nVegetation-ecological excursion to Israel with Prof. Katja Tielbörger\n\n\nMar–Apr 2019\nTropical Ecology of South America — excursion to Brazil with Dr. Rainer Radke (including one month of independent fieldwork)"
+  }
+]
