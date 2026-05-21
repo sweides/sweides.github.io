@@ -1,0 +1,347 @@
+/*-- scss:defaults --*/
+
+// Typography
+$font-family-sans-serif: 'Inter', system-ui, -apple-system, sans-serif;
+$font-family-serif: 'Source Serif 4', Georgia, serif;
+$font-size-base: 1.0rem;
+$line-height-base: 1.75;
+
+// Brand colors — botanical, restrained
+$primary: #2a6049;
+$secondary: #6c757d;
+$link-color: #2a6049;
+$link-hover-color: #1d4433;
+
+// Navbar
+$navbar-bg: #1a1a1a;
+$navbar-fg: #f0f0f0;
+$navbar-hl: #ffffff;
+
+// Body
+$body-bg: #ffffff;
+$body-color: #1a1a1a;
+
+// Headings
+$headings-font-weight: 600;
+$headings-color: #111111;
+
+/*-- scss:rules --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+
+body {
+  font-family: $font-family-sans-serif;
+  color: $body-color;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Use serif for long-form content
+.page-content p,
+.page-content li {
+  font-family: $font-family-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+// Navigation refinements
+.navbar {
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding: 0.4rem 0.8rem;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  opacity: 1;
+}
+
+// Hero / header block
+.profile-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  padding: 3rem 0 2.5rem;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2.5rem;
+}
+
+.profile-hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #e5e5e5;
+}
+
+.profile-hero-text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.profile-hero-text .position {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.1rem;
+}
+
+.profile-hero-text .institution {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.profile-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.profile-links a {
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.15s ease;
+}
+
+.profile-links a:hover {
+  border-color: $primary;
+  color: $primary;
+  background: rgba(42, 96, 73, 0.04);
+}
+
+// Section headers on pages
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+// Publication entries
+.pub-entry {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  font-family: $font-family-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #111;
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.pub-authors {
+  font-size: 0.87rem;
+  color: #555;
+  margin-bottom: 0.2rem;
+}
+
+.pub-authors strong {
+  color: #111;
+}
+
+.pub-journal {
+  font-size: 0.87rem;
+  color: #777;
+  font-style: italic;
+}
+
+.pub-doi {
+  font-size: 0.82rem;
+  color: $primary;
+  text-decoration: none;
+}
+
+.pub-doi:hover {
+  text-decoration: underline;
+}
+
+.pub-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.badge-prep {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.badge-published {
+  background: rgba(42, 96, 73, 0.1);
+  color: $primary;
+}
+
+// Research interest tags
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tag {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  background: #f3f3f3;
+  color: #444;
+  border: 1px solid #e0e0e0;
+}
+
+// CV timeline
+.cv-section {
+  margin-bottom: 2.5rem;
+}
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.cv-year {
+  font-size: 0.85rem;
+  color: #777;
+  font-weight: 500;
+  padding-top: 0.1rem;
+  white-space: nowrap;
+}
+
+.cv-details strong {
+  font-weight: 600;
+  color: #111;
+  font-size: 0.95rem;
+}
+
+.cv-details .cv-inst {
+  font-size: 0.87rem;
+  color: #555;
+  margin-top: 0.1rem;
+}
+
+.cv-details .cv-note {
+  font-size: 0.85rem;
+  color: #777;
+  font-style: italic;
+  margin-top: 0.15rem;
+}
+
+// Talks list
+.talk-entry {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.93rem;
+}
+
+.talk-year {
+  color: #999;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding-top: 0.05rem;
+}
+
+// Stats / highlight numbers
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: $primary;
+  line-height: 1;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.78rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.3rem;
+}
+
+// Footer
+.nav-footer {
+  font-size: 0.82rem;
+  color: #888;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+// Responsive
+@media (max-width: 640px) {
+  .profile-hero {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .profile-hero img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .stat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

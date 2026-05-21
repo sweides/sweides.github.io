@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sophie E. Weides"
+  description: "PhD Researcher in plant ecology at the University of Basel. I study how mountain plants respond to climate change across Europe."
+  site-url: "https://sweides.github.io"
+
+  favicon: assets/favicon.png
+
+  navbar:
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: github
+        href: "https://github.com/sweides"
+        aria-label: GitHub
+      - icon: envelope
+        href: "mailto:sophie.weides@gmail.com"
+        aria-label: Email
+
+  page-footer:
+    left: "Sophie E. Weides · University of Basel"
+    right:
+      - text: "Contact"
+        href: "mailto:sophie.weides@gmail.com"
+
+  open-graph:
+    title: "Sophie E. Weides — Plant Ecologist"
+    description: "PhD researcher studying mountain plant redistributions during the Anthropocene at the University of Basel."
+    image: assets/og-image.png
+
+format:
+  html:
+    theme:
+      light: [flatly, styles/custom.scss]
+      dark: [darkly, styles/custom-dark.scss]
+    css: styles/custom.css
+    toc: false
+    link-external-newwindow: true
+    link-external-icon: false
+    smooth-scroll: true
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 200px
+
+execute:
+  freeze: auto

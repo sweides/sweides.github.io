@@ -1,0 +1,123 @@
+/*-- scss:defaults --*/
+
+$body-bg: #0f1117;
+$body-color: #e0e0e0;
+$link-color: #6db89a;
+$link-hover-color: #8fd4b5;
+$headings-color: #f0f0f0;
+
+/*-- scss:rules --*/
+
+.profile-hero {
+  border-bottom-color: #2a2a2a;
+}
+
+.profile-hero img {
+  border-color: #2a2a2a;
+}
+
+.profile-hero-text h1 {
+  color: #f0f0f0;
+}
+
+.profile-hero-text .position {
+  color: #aaa;
+}
+
+.profile-hero-text .institution {
+  color: #888;
+}
+
+.profile-links a {
+  border-color: #333;
+  color: #ccc;
+}
+
+.profile-links a:hover {
+  border-color: #6db89a;
+  color: #6db89a;
+  background: rgba(109, 184, 154, 0.08);
+}
+
+.section-label {
+  color: #666;
+  border-bottom-color: #2a2a2a;
+}
+
+.pub-entry {
+  border-bottom-color: #1e1e1e;
+}
+
+.pub-title {
+  color: #e0e0e0;
+}
+
+.pub-authors {
+  color: #888;
+}
+
+.pub-authors strong {
+  color: #d0d0d0;
+}
+
+.pub-journal {
+  color: #666;
+}
+
+.pub-doi {
+  color: #6db89a;
+}
+
+.badge-prep {
+  background: #1e1e1e;
+  color: #888;
+}
+
+.badge-published {
+  background: rgba(109, 184, 154, 0.12);
+  color: #6db89a;
+}
+
+.tag {
+  background: #1a1a1a;
+  color: #aaa;
+  border-color: #2a2a2a;
+}
+
+.cv-year {
+  color: #666;
+}
+
+.cv-details strong {
+  color: #e0e0e0;
+}
+
+.cv-details .cv-inst {
+  color: #888;
+}
+
+.cv-details .cv-note {
+  color: #666;
+}
+
+.talk-year {
+  color: #666;
+}
+
+.stat-grid {
+  border-top-color: #2a2a2a;
+  border-bottom-color: #2a2a2a;
+}
+
+.stat-number {
+  color: #6db89a;
+}
+
+.stat-label {
+  color: #666;
+}
+
+.nav-footer {
+  color: #666;
+  border-top-color: #2a2a2a;
+}

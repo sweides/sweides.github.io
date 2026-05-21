@@ -1,0 +1,58 @@
+---
+title: "Publications"
+---
+
+Author names are underlined in the original CV; **bold** here marks my name. Publications are listed chronologically.
+
+---
+
+### 2026
+
+```{=html}
+<div class="pub-entry">
+  <div class="pub-title">Temporal decoupling of homogenization and dominance restructuring along an elevational gradient</div>
+  <div class="pub-authors"><strong>Sophie E. Weides</strong>, Vivien Astrup Felde, Jutta Kapfer, John-Arvid Grytnes &amp; Sabine Rumpf</div>
+  <div class="pub-journal">Journal of Vegetation Science <span class="pub-badge badge-prep">In preparation</span></div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">On the limits of alpine plants: a systematic review of the factors behind species' elevational range limits</div>
+  <div class="pub-authors"><strong>Sophie E. Weides</strong>, John-Arvid Grytnes, Stefan Dullinger, Jonathan Lenoir, L. Camila Pacheco-Riaño, John R. Pannell, Sonja Wipf &amp; Sabine B. Rumpf</div>
+  <div class="pub-journal">Ecology and Evolution <span class="pub-badge badge-published">Published</span></div>
+  <a class="pub-doi" href="https://doi.org/10.1002/ece3.73183" target="_blank">doi.org/10.1002/ece3.73183</a>
+</div>
+```
+
+### 2024
+
+```{=html}
+<div class="pub-entry">
+  <div class="pub-title">Belowground niche partitioning is maintained under extreme drought</div>
+  <div class="pub-authors"><strong>Sophie E. Weides</strong>, Tomáš Hájek, Pierre Liancourt, Maximiliane M. Herberich, Rosa E. Kramp, Sara Tomiolo, L. Camila Pacheco-Riaño, Katja Tielbörger &amp; Maria Májeková</div>
+  <div class="pub-journal">Ecology <span class="pub-badge badge-published">Published</span></div>
+  <a class="pub-doi" href="https://doi.org/10.1002/ecy.4198" target="_blank">doi.org/10.1002/ecy.4198</a>
+</div>
+```
+
+### 2022
+
+```{=html}
+<div class="pub-entry">
+  <div class="pub-title">Functional traits and their plasticity shift from tolerant to avoidant under extreme drought</div>
+  <div class="pub-authors">Rosa E. Kramp, Pierre Liancourt, Maximiliane M. Herberich, Lara Saul, <strong>Sophie Weides</strong>, Katja Tielbörger &amp; Maria Májeková</div>
+  <div class="pub-journal">Ecology (e382) <span class="pub-badge badge-published">Published</span></div>
+  <a class="pub-doi" href="https://doi.org/10.1002/ecy.3826" target="_blank">doi.org/10.1002/ecy.3826</a>
+</div>
+```
+
+---
+
+### Science communication
+
+**Weides, S.** (2021). Wo Pflanzen das Wasser hernehmen — Ermittlung der Wasseraufnahmetiefe von Wiesenpflanzen mit Hilfe stabiler Isotope. *Faktor14* (science magazine of the University of Tübingen, for a general audience).
+
+---
+
+### Peer review
+
+I review for **Journal of Vegetation Science** and **New Phytologist**, and have served as a reviewer for IASC Fellowship grants (International Arctic Science Committee).

@@ -1,0 +1,63 @@
+---
+title: ""
+page-layout: full
+---
+
+```{=html}
+<div class="profile-hero">
+  <img src="assets/profile.jpg" alt="Sophie E. Weides" onerror="this.style.display='none'">
+  <div class="profile-hero-text">
+    <h1>Sophie E. Weides</h1>
+    <p class="position">PhD Researcher in Botany</p>
+    <p class="institution">University of Basel &amp; Zurich–Basel Plant Science Center</p>
+    <p class="institution">Basel, Switzerland</p>
+    <div class="profile-links">
+      <a href="mailto:sophie.weides@gmail.com">✉ Email</a>
+      <a href="https://github.com/sweides" target="_blank">GitHub</a>
+      <a href="publications.qmd">Publications</a>
+      <a href="cv.qmd">CV</a>
+    </div>
+  </div>
+</div>
+```
+
+## Research
+
+I am a plant ecologist interested in how mountain plants respond to climate change at the European scale. My PhD at the University of Basel investigates large-scale redistributions of alpine vegetation during the Anthropocene — which species are moving, how fast, and what community-level consequences follow.
+
+My work combines resurveys of historical vegetation plots across elevational gradients with continental-scale datasets, statistical modelling, and fieldwork in Norway and Svalbard. I am co-supervised by [Prof. Sabine Rumpf](https://rumpflab.github.io) (University of Basel) and [Prof. John-Arvid Grytnes](https://www.uib.no/en/persons/John-Arvid.Grytnes) (University of Bergen) within the [Zurich–Basel Plant Science Center](https://www.plantscience.ch).
+
+Before Basel, I completed my MSc in Evolution and Ecology at the University of Tübingen, where I studied belowground water uptake strategies of grassland plants using stable isotopes, and later contributed to research on how plant functional traits shift under extreme drought.
+
+```{=html}
+<div class="tag-list">
+  <span class="tag">Alpine ecology</span>
+  <span class="tag">Climate change biology</span>
+  <span class="tag">Vegetation dynamics</span>
+  <span class="tag">Elevational range shifts</span>
+  <span class="tag">Plant community ecology</span>
+  <span class="tag">Biogeography</span>
+  <span class="tag">Plant functional traits</span>
+  <span class="tag">Belowground ecology</span>
+</div>
+```
+
+---
+
+## Selected publications
+
+**Weides, S.E.**, Grytnes, J.-A., Dullinger, S., Lenoir, J., Pacheco-Riaño, L.C., Pannell, J.R., Wipf, S. & Rumpf, S.B. (2026). On the limits of alpine plants: a systematic review of the factors behind species' elevational range limits. *Ecology and Evolution*. [doi.org/10.1002/ece3.73183](https://doi.org/10.1002/ece3.73183)
+
+**Weides, S.E.**, Hájek, T., Liancourt, P., Herberich, M.M., Kramp, R.E., Tomiolo, S., Pacheco-Riaño, L.C., Tielbörger, K. & Májeková, M. (2024). Belowground niche partitioning is maintained under extreme drought. *Ecology*. [doi.org/10.1002/ecy.4198](https://doi.org/10.1002/ecy.4198)
+
+→ [All publications](publications.qmd)
+
+---
+
+## Recent activities
+
+- **2026** — Speaking at the 68th Annual Symposium of the IAVS, Gijón, Spain
+- **2026** — Awarded funding from the Voluntary Academic Society of Basel for PhD completion
+- **2024** — Invited seminars at EDGE Lab (Gothenburg) and Dept. of Biological Sciences (Bergen)
+- **2024** — Talks at Biology24 (Zürich) and the International Biogeography Conference (Prague)
+- **2023** — FameLab Basel: reached the semifinals

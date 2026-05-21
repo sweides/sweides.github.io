@@ -1,0 +1,60 @@
+---
+title: "Research"
+---
+
+My research sits at the intersection of plant ecology, biogeography, and climate change biology. I work mostly at large spatial scales — across mountain ranges, elevation gradients, and continents — but I keep one foot in the field to ground that work empirically.
+
+---
+
+## PhD project
+
+**Europe-wide redistributions of mountain plants during the Anthropocene**
+
+*University of Basel · 2022 – present*\
+*Supervised by Prof. Sabine Rumpf (Basel) and Prof. John-Arvid Grytnes (Bergen)*\
+*Zurich–Basel Plant Science Center*
+
+Mountain ecosystems are among the most rapidly changing on Earth. As temperatures rise, alpine plants are expected to shift upslope — but the reality is more complicated. Species differ in their responses, communities restructure in non-obvious ways, and the factors that determine where species can live are not yet fully understood.
+
+My thesis addresses this complexity from several angles:
+
+**What limits alpine species at their upper and lower range boundaries?**\
+In a systematic review published in *Ecology and Evolution* (2026), my co-authors and I synthesised evidence for the biotic and abiotic factors constraining elevational range limits across alpine floras. The results challenge the widespread assumption that upper limits are primarily set by temperature.
+
+**Are alpine plant communities homogenising?**\
+A second chapter, in preparation for *Journal of Vegetation Science*, examines whether vegetation surveys along an elevational gradient show signatures of biotic homogenisation — and whether the timing of dominance changes tracks, or is decoupled from, the timing of compositional change.
+
+**Svalbard resurveys**\
+As a guest PhD student at the University Centre in Svalbard (UNIS) with Prof. Philipp Semenschuk, I resurveyed historical vegetation plots in the Isfjorden area (Svalbard, High Arctic), tracking community changes across decades in one of the fastest-warming regions on Earth. This work was supported by an Arctic Field Grant (100,000 NOK) from the Research Council of Norway.
+
+---
+
+## Earlier research
+
+**Belowground water use in drought-stressed grasslands**
+
+*University of Tübingen · MSc work, 2019–2021*
+
+For my MSc thesis I used stable water isotope mixing models to quantify the depth from which grassland plants extract water, and asked how this shifts as communities are subjected to experimental drought. The work showed that belowground niche partitioning — plants using water from different depths — is remarkably robust to extreme drought stress. This became a first-author paper in *Ecology* (2024).
+
+A complementary paper (Kramp et al., *Ecology*, 2022), to which I contributed, showed that while belowground partitioning is maintained, the functional traits of individual plants do shift: from strategies that tolerate drought to strategies that avoid it.
+
+**Vegetation responses to grazing in drylands**
+
+My BSc thesis examined how plant functional composition changes along grazing intensity gradients in dryland grasslands, linking functional trait variation to environmental filters imposed by livestock pressure.
+
+---
+
+## Methods and tools
+
+- **Fieldwork:** permanent plot monitoring, vegetation relevées, functional trait measurement (above- and belowground), biomass harvesting, phenological observations, soil surveys
+- **Sites:** Southern Norway (Jotunheimen NP), Svalbard (Isfjorden), Swabian Alb (Germany), Mediterranean (Greece), Israel, Brazil
+- **Statistics:** mixed models, GLMMs, generalised additive models, quantile regression, multivariate analysis, bootstrapping
+- **R:** tidyverse, ggplot2, lme4, nlme, MixSIAR, sf, terra, rgbif, GIFT, vegan
+- **Workflows:** R Markdown, Quarto, GitHub
+
+---
+
+## Collaborators
+
+I am grateful to work with a broad network of collaborators across European ecology and biogeography, including researchers at the University of Bergen, WSL Davos, the University of Vienna, the University of Picardie Jules Verne, Uppsala University, and UNIS Svalbard.
