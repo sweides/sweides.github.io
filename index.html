@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8ab7a1d8b36bb9a2c63051fc3c2694b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-12bda31ee24f79271264dd2229db87d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-32d628f63bee9f8d36ee5648e94127c0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-8ab7a1d8b36bb9a2c63051fc3c2694b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -422,6 +422,148 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<style>
+/* ── Footer botanical frame ──────────────────────────────────────────────── */
+.footer-frame {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.footer-frame .vine-svg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+.footer-falling-leaf {
+  position: absolute;
+  top: 4px;
+  pointer-events: none;
+  transform-origin: 50% 10%;
+  animation: footer-leaf-fall ease-in-out infinite;
+}
+
+@keyframes footer-leaf-fall {
+  0%   { transform: translate(0, 0)             rotate(var(--lr0)); opacity: 0; }
+  7%   { opacity: var(--lo); }
+  85%  { opacity: var(--lo); }
+  100% { transform: translate(var(--lx), 76px)  rotate(var(--lr1)); opacity: 0; }
+}
+</style>
+
+<script>
+(function () {
+
+  /* Three leaf shapes — elongated, wide ovoid, small asymmetric */
+  var SHAPES = [
+    { vb:'0 0 10 22', ar:2.20, d:'M5 0C9 4 9.5 12 5 22C0.5 12 1 4 5 0Z'       },
+    { vb:'0 0 12 20', ar:1.67, d:'M6 0C11 3 11 13 6 20C1 13 1 3 6 0Z'          },
+    { vb:'0 0 10 18', ar:1.80, d:'M4 0C9 2 10 11 5 18C0 13 0 3 4 0Z'           },
+  ];
+
+  /* Vine tendril helper */
+  function vine(x, y0, y1, strokeOp, leaves) {
+    var LP = 'M5 0C9 4 9.5 12 5 22C0.5 12 1 4 5 0Z';
+    var s  = '<line x1="' + x + '" y1="' + y0 + '" x2="' + (x-1) + '" y2="' + y1
+           + '" stroke="#446455" stroke-width="0.9" stroke-opacity="' + strokeOp + '"/>';
+    leaves.forEach(function (l) {
+      s += '<path transform="translate(' + (x-5) + ',' + l.y + ') rotate(' + l.r + ') scale(' + l.s + ')"'
+         + ' d="' + LP + '" opacity="' + l.o + '"/>';
+    });
+    return s;
+  }
+
+  function buildFrame() {
+    var footer = document.querySelector('.nav-footer');
+    if (!footer) return;
+
+    footer.style.borderTopColor = 'transparent';
+
+    var frame = document.createElement('div');
+    frame.className = 'footer-frame';
+    frame.setAttribute('aria-hidden', 'true');
+
+    /* ── Vine SVG ─────────────────────────────────────────────────── */
+    frame.innerHTML =
+      '<svg class="vine-svg" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'
+    + '<line x1="0" y1="1" x2="1440" y2="1" stroke="#D8D1C8" stroke-width="1"/>'
+    + '<path d="M0 10 Q 240 3 480 10 Q 720 17 960 10 Q 1200 3 1440 10"'
+    + '  stroke="#446455" stroke-width="1.5" fill="none" stroke-opacity="0.45"/>'
+    + '<g fill="#446455">'
+    + vine( 72,  10, 30, 0.38, [{ y:27, r: 8,  s:0.70, o:0.32 }])
+    + vine(192,   5, 34, 0.38, [{ y:30, r:-12, s:0.82, o:0.38 }, { y:46, r: 6, s:0.58, o:0.24 }])
+    + vine(330,  12, 36, 0.38, [{ y:32, r: 15, s:0.75, o:0.35 }])
+    + vine(484,  15, 44, 0.38, [{ y:40, r: -8, s:0.88, o:0.40 }, { y:56, r:10, s:0.62, o:0.26 }])
+    + vine(622,   7, 30, 0.38, [{ y:26, r:  5, s:0.72, o:0.33 }])
+    + vine(762,  13, 40, 0.38, [{ y:36, r:-10, s:0.80, o:0.37 }, { y:52, r: 7, s:0.58, o:0.24 }])
+    + vine(900,   5, 28, 0.38, [{ y:24, r: 12, s:0.78, o:0.34 }])
+    + vine(1042, 12, 42, 0.38, [{ y:38, r: -7, s:0.85, o:0.39 }, { y:54, r: 9, s:0.60, o:0.25 }])
+    + vine(1182,  7, 32, 0.38, [{ y:28, r: 14, s:0.74, o:0.33 }])
+    + vine(1322, 13, 40, 0.38, [{ y:36, r: -9, s:0.82, o:0.36 }, { y:50, r: 6, s:0.60, o:0.24 }])
+    + vine(1412,  9, 30, 0.38, [{ y:26, r: 11, s:0.68, o:0.30 }])
+    + '</g></svg>';
+
+    /* ── Falling leaves ───────────────────────────────────────────── */
+    /* 20 leaves spread across the width; sizes 9–15, durations 7–13 s */
+    var fallers = [
+      { x: '2%',  delay: 0,    dur: 9,  size:11, sh:0, r0:'-18deg', r1:' 24deg', lx:' 9px',  lo:0.28 },
+      { x: '7%',  delay: 5.5,  dur:12,  size:13, sh:1, r0:' 10deg', r1:'-20deg', lx:'-6px',  lo:0.24 },
+      { x:'13%',  delay: 2,    dur: 8,  size: 9, sh:2, r0:'-25deg', r1:' 15deg', lx:' 7px',  lo:0.21 },
+      { x:'19%',  delay: 8,    dur:11,  size:12, sh:0, r0:' 20deg', r1:'-30deg', lx:'-9px',  lo:0.26 },
+      { x:'25%',  delay: 1,    dur:13,  size:10, sh:1, r0:'-12deg', r1:' 22deg', lx:' 8px',  lo:0.22 },
+      { x:'31%',  delay: 6,    dur: 9,  size:15, sh:0, r0:' -8deg', r1:' 18deg', lx:' 11px', lo:0.30 },
+      { x:'37%',  delay: 3.5,  dur:10,  size:10, sh:2, r0:' 28deg', r1:'-16deg', lx:'-7px',  lo:0.22 },
+      { x:'42%',  delay: 9,    dur: 8,  size: 9, sh:1, r0:'-15deg', r1:' 20deg', lx:' 6px',  lo:0.20 },
+      { x:'48%',  delay: 0.5,  dur:11,  size:12, sh:0, r0:' 22deg', r1:'-14deg', lx:'-9px',  lo:0.26 },
+      { x:'53%',  delay: 4,    dur: 9,  size: 9, sh:2, r0:'-30deg', r1:' 12deg', lx:' 6px',  lo:0.20 },
+      { x:'58%',  delay: 7,    dur:10,  size:13, sh:1, r0:' 16deg', r1:'-24deg', lx:'-8px',  lo:0.25 },
+      { x:'64%',  delay: 2.5,  dur: 8,  size:11, sh:0, r0:'-20deg', r1:' 28deg', lx:' 8px',  lo:0.26 },
+      { x:'69%',  delay:10,    dur:12,  size:10, sh:2, r0:' 12deg', r1:'-26deg', lx:'-7px',  lo:0.22 },
+      { x:'75%',  delay: 1.5,  dur: 9,  size:14, sh:0, r0:'-16deg', r1:' 20deg', lx:' 7px',  lo:0.28 },
+      { x:'80%',  delay: 5,    dur:11,  size: 9, sh:1, r0:' 24deg', r1:'-12deg', lx:'-6px',  lo:0.21 },
+      { x:'85%',  delay: 8.5,  dur: 8,  size:12, sh:2, r0:'-22deg', r1:' 18deg', lx:' 8px',  lo:0.24 },
+      { x:'90%',  delay: 3,    dur:10,  size:11, sh:0, r0:' 18deg', r1:'-22deg', lx:'-7px',  lo:0.25 },
+      { x:'94%',  delay: 6.5,  dur: 9,  size:13, sh:1, r0:'-10deg', r1:' 24deg', lx:' 6px',  lo:0.23 },
+      { x:'15%',  delay:11,    dur:11,  size:10, sh:1, r0:' 22deg', r1:'-18deg', lx:'-6px',  lo:0.22 },
+      { x:'46%',  delay:10.5,  dur: 8,  size: 9, sh:2, r0:'-10deg', r1:' 22deg', lx:' 7px',  lo:0.20 },
+    ];
+
+    fallers.forEach(function (f) {
+      var shape = SHAPES[f.sh];
+      var w = f.size;
+      var h = Math.round(f.size * shape.ar);
+      var el = document.createElement('div');
+      el.className = 'footer-falling-leaf';
+      el.style.cssText = [
+        'left:'  + f.x,
+        'width:' + w + 'px', 'height:' + h + 'px',
+        'animation-duration:'  + f.dur   + 's',
+        'animation-delay:-'    + f.delay + 's',   /* negative delay → pre-started */
+        '--lr0:' + f.r0, '--lr1:' + f.r1,
+        '--lx:'  + f.lx, '--lo:'  + f.lo,
+        'color:#446455'
+      ].join(';');
+      el.innerHTML =
+        '<svg viewBox="' + shape.vb + '" width="' + w + '" height="' + h + '"'
+      + ' xmlns="http://www.w3.org/2000/svg" fill="currentColor">'
+      + '<path d="' + shape.d + '"/></svg>';
+      frame.appendChild(el);
+    });
+
+    footer.parentNode.insertBefore(frame, footer);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', buildFrame);
+  } else {
+    buildFrame();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
