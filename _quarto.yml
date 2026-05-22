@@ -63,6 +63,8 @@ format:
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css">
           <link rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    include-after-body:
+      - footer-decoration.html
     toc: false
     link-external-newwindow: true
     link-external-icon: false
