@@ -6,7 +6,7 @@ I have been involved in teaching at both undergraduate and graduate levels since
 
 ---
 
-## University of Basel
+## <i class="bi bi-mortarboard-fill section-icon" aria-hidden="true"></i> University of Basel
 
 **Teaching assistant** · 2022 – present
 
@@ -17,7 +17,7 @@ I have been involved in teaching at both undergraduate and graduate levels since
 
 ---
 
-## University of Tübingen
+## <i class="bi bi-mortarboard-fill section-icon" aria-hidden="true"></i> University of Tübingen
 
 **Teaching assistant** · 2017 – 2022
 
@@ -35,13 +35,13 @@ I have been involved in teaching at both undergraduate and graduate levels since
 
 ---
 
-## Plant identification
+## <i class="bi bi-flower1 section-icon" aria-hidden="true"></i> Plant identification
 
 In 2021 I passed the SW400–Berberis examination at the University of Tübingen, which certifies knowledge of 400 plant species and their families, plus the 25 most common plant families in southwest Germany.
 
 ---
 
-## Field schools and intensive courses
+## <i class="bi bi-backpack-fill section-icon" aria-hidden="true"></i> Field schools and intensive courses
 
 | Date | Course |
 |------|--------|

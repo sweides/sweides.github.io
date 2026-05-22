@@ -1,27 +1,126 @@
-/* Fallback plain CSS for anything SCSS doesn't catch */
+/* ── Quarto layout overrides ─────────────────────────────────────────────── */
 
-/* Content width constraint — keeps lines readable */
-.content {
-  max-width: 760px;
+/* Keep readable line length */
+#quarto-content .page-columns .page-full {
+  max-width: 100%;
 }
 
-/* Tighten Quarto's default list spacing */
-ul, ol {
-  padding-left: 1.4rem;
+/* Remove extra margin Quarto adds above h1 on pages with title: "" */
+.quarto-title-block { display: none; }
+
+/* ── Navbar icon sizing (Bootstrap Icons in navbar) ──────────────────────── */
+.navbar .bi {
+  font-size: 1rem;
+  vertical-align: -0.125em;
 }
 
-li + li {
-  margin-top: 0.25rem;
+/* ── Dark mode toggle button (lightbi-style) ─────────────────────────────── */
+.navbar .quarto-color-scheme-toggle {
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: transparent;
+  transition: background 0.15s, border-color 0.15s;
 }
 
-/* Prevent code blocks from becoming enormous */
-pre {
-  font-size: 0.85rem;
+.navbar .quarto-color-scheme-toggle:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.3);
 }
 
-/* Subtle horizontal rule */
+.navbar .quarto-color-scheme-toggle .bi {
+  color: rgba(229,231,235,0.85);
+}
+
+/* ── Remove Quarto's default page title heading ──────────────────────────── */
+h1.title { display: none; }
+
+/* ── Horizontal rule with botanical ornament ─────────────────────────────── */
 hr {
   border: none;
-  border-top: 1px solid #e5e5e5;
-  margin: 2rem 0;
+  border-top: 1px solid #D8D1C8;
+  margin: 2.5rem 0;
+  position: relative;
+  overflow: visible;
+}
+
+hr::after {
+  content: "❧";
+  display: block;
+  position: absolute;
+  top: -0.65em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #C7B19C;
+  font-size: 1.1rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* ── Table styling (teaching page) ──────────────────────────────────────── */
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+thead th {
+  font-weight: 600;
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid #e5e7eb;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+tbody td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: top;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+/* ── Footer link color ───────────────────────────────────────────────────── */
+.nav-footer a {
+  color: inherit;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* ── Code blocks ─────────────────────────────────────────────────────────── */
+pre {
+  font-size: 0.85rem;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+code {
+  font-size: 0.88em;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+
+/* ── Blockquote (used for pull quotes) ───────────────────────────────────── */
+blockquote {
+  border-left: 3px solid #446455;
+  padding-left: 1.25rem;
+  margin-left: 0;
+  color: #5A5248;
+  font-style: italic;
+}
+
+/* ── Responsive: hide margin column on small screens ─────────────────────── */
+@media (max-width: 800px) {
+  .page-columns.page-full {
+    grid-template-columns: 1fr !important;
+  }
 }

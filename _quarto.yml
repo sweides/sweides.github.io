@@ -4,12 +4,14 @@ project:
 
 website:
   title: "Sophie E. Weides"
-  description: "PhD Researcher in plant ecology at the University of Basel. I study how mountain plants respond to climate change across Europe."
+  description: "PhD Student in plant ecology at the University of Basel. I study how mountain plants respond to climate change across Europe."
   site-url: "https://sweides.github.io"
 
   favicon: assets/favicon.png
 
   navbar:
+    background: dark
+    foreground: light
     left:
       - text: "About"
         href: index.qmd
@@ -19,41 +21,56 @@ website:
         href: publications.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "CV"
-        href: cv.qmd
+      - text: "Outreach"
+        href: outreach.qmd
     right:
       - icon: github
         href: "https://github.com/sweides"
         aria-label: GitHub
-      - icon: envelope
+      - icon: envelope-fill
         href: "mailto:sophie.weides@gmail.com"
         aria-label: Email
 
   page-footer:
-    left: "Sophie E. Weides · University of Basel"
-    right:
-      - text: "Contact"
-        href: "mailto:sophie.weides@gmail.com"
+    center: |
+      Sophie E. Weides · University of Basel ·
+      [ORCID](https://orcid.org/0000-0002-6655-5100) ·
+      [Scholar](https://scholar.google.com/citations?hl=en&user=aM0DzFAAAAAJ) ·
+      [Bluesky](https://bsky.app/profile/sophieweides.bsky.social) ·
+      [ResearchGate](https://www.researchgate.net/profile/Sophie-Weides)
+    border: true
 
   open-graph:
     title: "Sophie E. Weides — Plant Ecologist"
     description: "PhD researcher studying mountain plant redistributions during the Anthropocene at the University of Basel."
     image: assets/og-image.png
 
+  twitter-card:
+    title: "Sophie E. Weides — Plant Ecologist"
+    description: "PhD researcher studying mountain plant redistributions during the Anthropocene at the University of Basel."
+
 format:
   html:
     theme:
       light: [flatly, styles/custom.scss]
-      dark: [darkly, styles/custom-dark.scss]
+      dark:  [darkly, styles/custom-dark.scss]
     css: styles/custom.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+          <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css">
+          <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
     toc: false
     link-external-newwindow: true
     link-external-icon: false
     smooth-scroll: true
     grid:
       sidebar-width: 0px
-      body-width: 900px
-      margin-width: 200px
+      body-width: 860px
+      margin-width: 150px
 
 execute:
   freeze: auto

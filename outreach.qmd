@@ -1,0 +1,91 @@
+---
+title: "Outreach"
+---
+
+Plants are endlessly strange and the public largely doesn't know it. I try to fix that.
+
+---
+
+## <i class="bi bi-mic-fill section-icon" aria-hidden="true"></i> FameLab Basel 2023
+
+```{=html}
+<div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:8px; margin:1.25rem 0 2rem;">
+  <iframe
+    src="https://www.youtube.com/embed/yKQyhttuwTM"
+    title="Where does the water come from? – Sophie Weides, FameLab Basel 2023"
+    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+```
+
+Three minutes, no slides, one question: *where does the water come from?* This was my talk at the FameLab Basel 2023 semi-final — a science communication competition where the constraint is the point. Brevity forces you to decide what actually matters.
+
+The talk is about grassland plant roots and stable water isotopes, but really it is about the invisible competition happening just below the surface of any meadow you walk through.
+
+---
+
+## <i class="bi bi-flower2 section-icon" aria-hidden="true"></i> Evening tours at the Botanical Garden of Basel
+
+Since 2022 I have led public evening tours at the [Botanical Garden of the University of Basel](https://botgarten.unibas.ch) — the *Feierabendführung* series, which runs after work and is open to anyone. No background in botany required.
+
+```{=html}
+<div class="pub-entry" style="margin-top:1.25rem;">
+  <div class="pub-title">Myths, Magic, Medicine — Ethnobotany Through Time</div>
+  <div class="pub-authors" style="font-style:normal;">
+    A walk through how humans have used, feared, worshipped, and poisoned each other with plants across millennia. The same species — hemlock, belladonna, St John's wort — has been a cure, a weapon, and a sacrament depending on the century and the culture. The tour is less about memorising Latin names and more about what plants reveal about how people make sense of the world.
+  </div>
+  <div class="pub-meta" style="margin-top:0.5rem;">
+    <a class="pub-doi" href="https://botgarten.unibas.ch/de/event/details/feierabendfuehrung-mythen-magie-medizin-ethnobotanik-im-wandel-der-zeit/" target="_blank">
+      Event page ↗
+    </a>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">Root Worlds — From Pneumatophores to Walking Trees</div>
+  <div class="pub-authors" style="font-style:normal;">
+    Most of what a plant does is invisible. This tour goes underground — into how roots breathe in flooded soils, how certain trees appear to migrate slowly across the landscape, how the belowground competition between neighbours shapes what you see above. It is also, quietly, about what my own research is trying to understand.
+  </div>
+</div>
+```
+
+---
+
+## <svg class="section-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/><path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"/></svg> Fieldwork in Svalbard
+
+```{=html}
+<div style="position:relative; padding-bottom:60%; height:0; overflow:hidden; border-radius:8px; margin:1.25rem 0 2rem; border:1px solid #D8D1C8;">
+  <iframe
+    src="https://www.polarsteps.com/SophieWeides/7654745-fieldwork-in-svalbard/embed"
+    title="Fieldwork in Svalbard — Sophie Weides on Polarsteps"
+    style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;"
+    allowfullscreen>
+  </iframe>
+</div>
+```
+
+A photo diary from fieldwork on the Svalbard archipelago — one of the northernmost places where vascular plants still grow. The trip is part of the data-collection work behind my PhD: resurveying historical vegetation plots to track how alpine plant communities have shifted as the Arctic warms. The Polarsteps log is a way to share the landscape, the logistics, and the plants themselves with anyone curious about what fieldwork in the High Arctic actually looks like.
+
+---
+
+## <i class="bi bi-journal-text section-icon" aria-hidden="true"></i> Popular writing
+
+**Weides, S.** (2021). Wo Pflanzen das Wasser hernehmen. *Faktor14*, University of Tübingen.
+
+A piece written during my MSc for a general audience — explaining the isotope method and what it told us about how grassland plants compete for water without ever touching each other above ground.
+
+```{=html}
+<div style="margin:1.25rem 0 0.75rem; border:1px solid #D8D1C8; border-radius:8px; overflow:hidden;">
+  <iframe
+    src="media/faktor14-weides-2021.pdf"
+    title="Wo Pflanzen das Wasser hernehmen — Faktor14, 2021"
+    style="width:100%; height:520px; border:0; display:block;"
+  ></iframe>
+</div>
+<p style="font-size:0.8rem; color:#9A9288; margin-top:0.4rem;">
+  <a href="media/faktor14-weides-2021.pdf" target="_blank" style="color:#446455;">Open PDF ↗</a>
+  &nbsp;·&nbsp; In German &nbsp;·&nbsp; Faktor14, Ausgabe 2021/2, pp. 31–32
+</p>
+```

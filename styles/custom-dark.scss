@@ -1,123 +1,140 @@
 /*-- scss:defaults --*/
 
-$body-bg: #0f1117;
-$body-color: #e0e0e0;
-$link-color: #6db89a;
-$link-hover-color: #8fd4b5;
-$headings-color: #f0f0f0;
+// ── Dark mode — Hotel Chevalier tones on dark ground ──────────────────────────
+$body-bg:    #141210;
+$body-color: #E0D9CF;
+
+$navbar-bg: #0E1510;
+$navbar-fg: #DDD6CB;
+$navbar-hl: #FDD262;
+
+$primary:          #7AAE96;   // lighter sage for dark bg
+$link-color:       #7AAE96;
+$link-hover-color: #A3C9B8;
+
+$headings-color: #EDE6DB;
+$code-bg:        #211E1A;
+$code-color:     #A09588;
 
 /*-- scss:rules --*/
 
+body { background-color: #141210; color: #E0D9CF; }
+
+// ── Navbar ────────────────────────────────────────────────────────────────────
+.navbar {
+  background-color: #0A0F0B !important;
+  border-bottom-color: rgba(255,255,255,0.04) !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+// ── Profile hero ──────────────────────────────────────────────────────────────
 .profile-hero {
-  border-bottom-color: #2a2a2a;
+  border-bottom-color: #2A2520;
 }
 
-.profile-hero img {
-  border-color: #2a2a2a;
+.profile-photo img {
+  border-color: #D3DDDC;
+  background: #1E1B17;
 }
 
-.profile-hero-text h1 {
-  color: #f0f0f0;
+.profile-info h1 { color: #EDE6DB; }
+
+.profile-info .profile-role { color: #7AAE96; }
+
+.profile-info .profile-affil { color: #7A7060; }
+
+// ── Social buttons ────────────────────────────────────────────────────────────
+.social-btn {
+  background: #1E1B17;
+  border-color: #3A342C;
+  color: #C7B19C;
 }
 
-.profile-hero-text .position {
-  color: #aaa;
+.social-btn:hover {
+  background: #EDE6DB;
+  border-color: #EDE6DB;
+  color: #141210;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 
-.profile-hero-text .institution {
-  color: #888;
-}
+.social-btn.orcid:hover    { background: #a6ce39; border-color: #a6ce39; color: #111; }
+.social-btn.scholar:hover  { background: #4285f4; border-color: #4285f4; color: #fff; }
+.social-btn.bluesky:hover  { background: #0085ff; border-color: #0085ff; color: #fff; }
+.social-btn.rgate:hover    { background: #00ccbb; border-color: #00ccbb; color: #111; }
+.social-btn.github:hover   { background: #f0f6ff; border-color: #f0f6ff; color: #111; }
+.social-btn.email:hover    { background: #7AAE96; border-color: #7AAE96; color: #111; }
 
-.profile-links a {
-  border-color: #333;
-  color: #ccc;
-}
-
-.profile-links a:hover {
-  border-color: #6db89a;
-  color: #6db89a;
-  background: rgba(109, 184, 154, 0.08);
-}
-
-.section-label {
-  color: #666;
-  border-bottom-color: #2a2a2a;
-}
-
-.pub-entry {
-  border-bottom-color: #1e1e1e;
-}
-
-.pub-title {
-  color: #e0e0e0;
-}
-
-.pub-authors {
-  color: #888;
-}
-
-.pub-authors strong {
-  color: #d0d0d0;
-}
-
-.pub-journal {
-  color: #666;
-}
-
-.pub-doi {
-  color: #6db89a;
-}
-
-.badge-prep {
-  background: #1e1e1e;
-  color: #888;
-}
-
-.badge-published {
-  background: rgba(109, 184, 154, 0.12);
-  color: #6db89a;
-}
-
+// ── Research tags ─────────────────────────────────────────────────────────────
 .tag {
-  background: #1a1a1a;
-  color: #aaa;
-  border-color: #2a2a2a;
+  background: #1C2B22;
+  color: #7AAE96;
+  border-color: #2D4A3A;
 }
 
-.cv-year {
-  color: #666;
+// ── Headings ──────────────────────────────────────────────────────────────────
+h2 {
+  color: #EDE6DB;
+  border-bottom-color: #2A2520;
 }
 
-.cv-details strong {
-  color: #e0e0e0;
+h3 { color: #E0D9CF; }
+
+// ── Prose ─────────────────────────────────────────────────────────────────────
+.page-content p,
+.page-content li {
+  color: #A09588;
 }
 
-.cv-details .cv-inst {
-  color: #888;
+// ── Publication cards ─────────────────────────────────────────────────────────
+.pub-entry {
+  background: #1A1714;
+  border-color: #2A2520;
 }
 
-.cv-details .cv-note {
-  color: #666;
+.pub-entry:hover {
+  border-color: #3A342C;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
 }
 
-.talk-year {
-  color: #666;
-}
+.pub-title { color: #E0D9CF; }
 
-.stat-grid {
-  border-top-color: #2a2a2a;
-  border-bottom-color: #2a2a2a;
-}
+.pub-authors { color: #7A7060; }
 
-.stat-number {
-  color: #6db89a;
-}
+.pub-authors strong { color: #C7B19C; }
 
-.stat-label {
-  color: #666;
-}
+.pub-journal { color: #7A7060; }
 
+.pub-doi { color: #7AAE96; }
+
+.badge-prep      { background: #2a1f05; color: #d97706; border-color: #78350f; }
+.badge-published { background: #142B1E; color: #7AAE96; border-color: #1E4A32; }
+
+// ── CV ────────────────────────────────────────────────────────────────────────
+.cv-entry { border-bottom-color: #2A2520; }
+
+.cv-year { color: #5A5248; }
+
+.cv-details strong { color: #EDE6DB; }
+
+.cv-details .cv-inst { color: #A09588; }
+
+.cv-details .cv-note { color: #5A5248; }
+
+// ── Talks ─────────────────────────────────────────────────────────────────────
+.talk-year { color: #5A5248; }
+
+// ── Footer ────────────────────────────────────────────────────────────────────
 .nav-footer {
-  color: #666;
-  border-top-color: #2a2a2a;
+  color: #5A5248;
+  border-top-color: #2A2520;
 }
+
+// ── Horizontal rule ───────────────────────────────────────────────────────────
+hr { border-top-color: #2A2520; }
+
+hr::after { color: #3A342C; }
+
+// ── Tables ────────────────────────────────────────────────────────────────────
+table { color: #E0D9CF; }
+thead { border-bottom-color: #3A342C; }
+tbody tr { border-bottom-color: #2A2520; }
