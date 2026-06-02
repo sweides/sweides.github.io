@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sweides.github.io/research.html</loc>
-    <lastmod>2026-05-22T11:18:02.140Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweides.github.io/teaching.html</loc>
-    <lastmod>2026-05-22T11:18:02.141Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sweides.github.io/publications.html</loc>
-    <lastmod>2026-05-22T11:18:02.140Z</lastmod>
-  </url>
-  <url>
     <loc>https://sweides.github.io/index.html</loc>
-    <lastmod>2026-05-22T11:18:02.079Z</lastmod>
+    <lastmod>2026-06-02T11:47:23.971Z</lastmod>
   </url>
   <url>
     <loc>https://sweides.github.io/outreach.html</loc>
-    <lastmod>2026-05-22T11:18:02.140Z</lastmod>
+    <lastmod>2026-06-02T11:47:24.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweides.github.io/research.html</loc>
+    <lastmod>2026-06-02T11:47:24.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweides.github.io/publications.html</loc>
+    <lastmod>2026-06-02T11:47:24.032Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sweides.github.io/teaching.html</loc>
+    <lastmod>2026-06-02T11:47:24.032Z</lastmod>
   </url>
 </urlset>
