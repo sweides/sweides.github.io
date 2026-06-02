@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-I have been involved in teaching at both undergraduate and graduate levels since 2017, first at the University of Tübingen and then at the University of Basel. My teaching spans field courses, lab practicals, statistics, and student mentoring.
+I have been involved in teaching at both undergraduate and graduate level since 2017, first at the University of Tübingen and then at the University of Basel. My teaching spans field courses, lab practicals, statistics, and student mentoring.
 
 ---
 
@@ -24,14 +24,15 @@ I have been involved in teaching at both undergraduate and graduate levels since
 - **Advanced Biometry** — statistical methods for biologists; mixed models, experimental design
 - **Fundamentals of Coding** — introduction to R and reproducible data analysis for biology students
 - **Botany** — lab course and field excursions; plant identification, morphology, anatomy
-- **Pharmaceutical Biology** — herbarium examination, essay evaluation, botanical excursions for pharmacy students
+- **Pharmaceutical Biology** — herbarium examination, botanical excursions for pharmacy students
+- **Biochemistry** — lab assistant
 - **First-Year Student Mentoring** — contact person and advisor for incoming biology students
 
 **Research assistant** · 2017 – 2022
 
 - Vegetation Ecology Group — field and lab work across multiple projects
-- Plant Evolutionary Ecology Group — research support
-- Behavioral Ecology — preparation of experimental materials
+- Plant Evolutionary Ecology Group — field and lab work across multiple projects
+- Behavioral Ecology — preparation of materials
 
 ---
 
@@ -48,4 +49,4 @@ In 2021 I passed the SW400–Berberis examination at the University of Tübingen
 | Apr 2023 | Ecology of Mediterranean Systems — excursion to Greece with Prof. Christian Körner and Dr. Juriaan de Vos |
 | Dec 2022 | Winter School on Data Management in Ecology and Environmental Sciences (GfÖ & NFDI4Biodiversity) |
 | Mar 2020 | Vegetation-ecological excursion to Israel with Prof. Katja Tielbörger |
-| Mar–Apr 2019 | Tropical Ecology of South America — excursion to Brazil with Dr. Rainer Radke (including one month of independent fieldwork) |
+| Mar–Apr 2019 | Tropical Ecology of South America — excursion to Brazil with Dr. Rainer Radke (including short independent fieldwork) |

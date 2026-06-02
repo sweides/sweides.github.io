@@ -70,9 +70,9 @@ page-layout: full
 
 ## <svg class="section-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg> Research
 
-I study how mountain plants respond to climate change — which species are moving upslope, which are not, and what happens to plant communities when the neighbours change. My PhD at the University of Basel takes a European-scale view of this, combining resurveyed historical vegetation plots with large continental datasets and fieldwork in Norway and Svalbard.
+I study how alpine and arctic plants respond to climate change, so which species are moving upslope, which are not, and what happens to plant communities because of these shifts. My PhD at the University of Basel takes a European-scale view of this by combining resurveyed historical vegetation plots all across Europe to which I added with my fieldwork in Norway and Svalbard.
 
-Before Basel I spent three years in Tübingen asking a different kind of question: where, exactly, do grassland plants get their water from? Using stable isotopes, I traced roots to their water sources and found that plants partition the soil more reliably than drought models tend to assume.
+Before Basel I spent five years at the University of Tübingen doing my Bachelor and Master. During my thesis I asked a different kind of question: where, exactly, do grassland plants get their water from? Using stable isotopes, I traced roots to their water sources and found that plants partition the soil more reliably than drought models tend to assume.
 
 ```{=html}
 <div class="tag-list">

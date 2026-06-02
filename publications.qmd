@@ -1,8 +1,7 @@
 ---
 title: "Publications"
 ---
-
-Author names are underlined in the original CV; **bold** here marks my name. Publications are listed chronologically.
+Publications are listed chronologically:
 
 ---
 
@@ -49,7 +48,7 @@ Author names are underlined in the original CV; **bold** here marks my name. Pub
 
 ### Science communication
 
-**Weides, S.** (2021). Wo Pflanzen das Wasser hernehmen — Ermittlung der Wasseraufnahmetiefe von Wiesenpflanzen mit Hilfe stabiler Isotope. *Faktor14* (science magazine of the University of Tübingen, for a general audience).
+**Weides, S.** (2021). Wo Pflanzen das Wasser hernehmen — Ermittlung der Wasseraufnahmetiefe von Wiesenpflanzen mit Hilfe stabiler Isotope. *Faktor14* (Magazine of the University of Tübingen, for a general audience).
 
 ---
 

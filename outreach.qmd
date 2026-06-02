@@ -2,7 +2,7 @@
 title: "Outreach"
 ---
 
-Plants are endlessly strange and the public largely doesn't know it. I try to fix that.
+Plants with all their abilities and quirks are for me an endless source of fascination and joy that I love to share with others. 
 
 ---
 
@@ -20,9 +20,9 @@ Plants are endlessly strange and the public largely doesn't know it. I try to fi
 </div>
 ```
 
-Three minutes, no slides, one question: *where does the water come from?* This was my talk at the FameLab Basel 2023 semi-final — a science communication competition where the constraint is the point. Brevity forces you to decide what actually matters.
+*Where does the water come from?* This was my talk at the FameLab Basel 2023 semi-final — a science communication competition where the constraint is the point. You only get three minutes and no slides, so the brevity forces you to decide what actually matters.
 
-The talk is about grassland plant roots and stable water isotopes, but really it is about the invisible competition happening just below the surface of any meadow you walk through.
+The talk was about the topic of my master thesis, which tried to answer the question from which depth meadow plants take their water and how they deal with drought and an increasing competition for a limited resource. 
 
 ---
 
@@ -31,10 +31,17 @@ The talk is about grassland plant roots and stable water isotopes, but really it
 Since 2022 I have led public evening tours at the [Botanical Garden of the University of Basel](https://botgarten.unibas.ch) — the *Feierabendführung* series, which runs after work and is open to anyone. No background in botany required.
 
 ```{=html}
-<div class="pub-entry" style="margin-top:1.25rem;">
-  <div class="pub-title">Myths, Magic, Medicine — Ethnobotany Through Time</div>
+<div class="pub-entry">
+  <div class="pub-title">Wurzelwelten - Von Atemwurzeln zu wandernden Bäumen</div>
   <div class="pub-authors" style="font-style:normal;">
-    A walk through how humans have used, feared, worshipped, and poisoned each other with plants across millennia. The same species — hemlock, belladonna, St John's wort — has been a cure, a weapon, and a sacrament depending on the century and the culture. The tour is less about memorising Latin names and more about what plants reveal about how people make sense of the world.
+    Die Führung Wurzelwelten hat einen Einblick in die erstaunliche Vielfalt und Anpassungsfähigkeit von Wurzeln gegeben. Von Varankerung zur Wasser- und Nährstoffaufnahme bis hin zu Speicherung, Symbiosen und Kommunikation. Anhand von Beispielen wie Sumpfzypresse, Mangrove, Tillandsie, Orchideen, Efeu und Alraune wurde gezeigt, wie unterschiedlich Pflanzen ihre Wurzeln nutzen und an extreme Lebensräume angepasst haben. 
+  </div>
+</div>
+
+<div class="pub-entry" style="margin-top:1.25rem;">
+  <div class="pub-title">Mythen, Magie, Medizin - Ethnobotanik im Wandel der Zeit</div>
+  <div class="pub-authors" style="font-style:normal;">
+    In dieser Führung haben wir gesehen wie eng Pflanzen seit jeher mit Heilkunst, Ritualen, Mythologie und kulturellem Wissen verbunden waren. An Beispielen wie Aleo vera, Pfeffer, Tollkirsche, Kakao und Chinarinde wurde deutlich, wie sich die Bedeutung von Pflanzen zwischen Medizin, Magie, Kolonialgeschichte und moderner Kommerzialisierung wandelte. 
   </div>
   <div class="pub-meta" style="margin-top:0.5rem;">
     <a class="pub-doi" href="https://botgarten.unibas.ch/de/event/details/feierabendfuehrung-mythen-magie-medizin-ethnobotanik-im-wandel-der-zeit/" target="_blank">
@@ -44,9 +51,16 @@ Since 2022 I have led public evening tours at the [Botanical Garden of the Unive
 </div>
 
 <div class="pub-entry">
-  <div class="pub-title">Root Worlds — From Pneumatophores to Walking Trees</div>
+  <div class="pub-title">Botanische Intrigen: Parasitismus im Pflanzenreich</div>
   <div class="pub-authors" style="font-style:normal;">
-    Most of what a plant does is invisible. This tour goes underground — into how roots breathe in flooded soils, how certain trees appear to migrate slowly across the landscape, how the belowground competition between neighbours shapes what you see above. It is also, quietly, about what my own research is trying to understand.
+    Botanische Intrigen hat die faszinierende Welt parasitischer Pflanzen beleuchtet: von Misteln und Sommerwurzen bis zu raffinierten Halbparasiten wie dem Klappertopf. Die Führung hat gezeigt, wie Pflanzen einander anzapfen, sich dagegen wehren und warum Parasitismus in der Natur oft komplexer ist, als es auf den ersten Blick scheint.
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">Heil- und Giftpflanzen</div>
+  <div class="pub-authors" style="font-style:normal;">
+    In dieser Führung habe ich einen Einblick in die Welt pflanzlicher Gifte gegeben und gezeigt wie deren Wirkung von Dosis, Aufnahmeweg und Organismus abhängt. An den Beispielen von Tollkirsche, Fingerhut, Herbstzeitloser und Eisenhut wurde deutlich, wie Pflanzen Gifte als Schutzstrategie einsetzen und welche Bedeutung daraus für die Medizin und unsere Geschichte und Kultur wurde.
   </div>
 </div>
 ```
@@ -66,7 +80,7 @@ Since 2022 I have led public evening tours at the [Botanical Garden of the Unive
 </div>
 ```
 
-A photo diary from fieldwork on the Svalbard archipelago — one of the northernmost places where vascular plants still grow. The trip is part of the data-collection work behind my PhD: resurveying historical vegetation plots to track how alpine plant communities have shifted as the Arctic warms. The Polarsteps log is a way to share the landscape, the logistics, and the plants themselves with anyone curious about what fieldwork in the High Arctic actually looks like.
+A photo diary from fieldwork on the Svalbard, more exactly the Isfjorden, which is one of the northernmost places where vascular plants still grow. The trip is part of the data-collection work behind my PhD: resurveying historical vegetation plots to track how alpine plant communities have shifted as the Arctic warms. The Polarsteps log is a way to share the landscape, the logistics, the everyday life and of course the plants themselves with anyone curious about what fieldwork in the High Arctic actually looks like.
 
 ---
 
@@ -74,7 +88,7 @@ A photo diary from fieldwork on the Svalbard archipelago — one of the northern
 
 **Weides, S.** (2021). Wo Pflanzen das Wasser hernehmen. *Faktor14*, University of Tübingen.
 
-A piece written during my MSc for a general audience — explaining the isotope method and what it told us about how grassland plants compete for water without ever touching each other above ground.
+A piece I have written during my MSc for a general audience explaining the isotope method and what it told us about how grassland plants compete for water.
 
 ```{=html}
 <div style="margin:1.25rem 0 0.75rem; border:1px solid #D8D1C8; border-radius:8px; overflow:hidden;">
