@@ -9,12 +9,6 @@ Publications are listed chronologically:
 
 ```{=html}
 <div class="pub-entry">
-  <div class="pub-title">Temporal decoupling of homogenization and dominance restructuring along an elevational gradient</div>
-  <div class="pub-authors"><strong>Sophie E. Weides</strong>, Vivien Astrup Felde, Jutta Kapfer, John-Arvid Grytnes &amp; Sabine Rumpf</div>
-  <div class="pub-journal">Journal of Vegetation Science <span class="pub-badge badge-prep">In preparation</span></div>
-</div>
-
-<div class="pub-entry">
   <div class="pub-title">On the limits of alpine plants: a systematic review of the factors behind species' elevational range limits</div>
   <div class="pub-authors"><strong>Sophie E. Weides</strong>, John-Arvid Grytnes, Stefan Dullinger, Jonathan Lenoir, L. Camila Pacheco-Riaño, John R. Pannell, Sonja Wipf &amp; Sabine B. Rumpf</div>
   <div class="pub-journal">Ecology and Evolution <span class="pub-badge badge-published">Published</span></div>
